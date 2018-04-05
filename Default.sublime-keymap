@@ -4,7 +4,7 @@
 //   Un-comment if you want to use the enter key for auto-completion
 //   {"key": "auto_complete_visible", "operand": false},
      {"key": "setting.translate_tabs_to_spaces"},
-     {"key": "preceding_text", "operator": "regex_contains", "operand": "[({[].*$", "match_all": false}
+     {"key": "preceding_text", "operator": "regex_contains", "operand": "[({[](\\s*[^\\s]+\\s*)$", "match_all": false}
    ]
   }
 ]
